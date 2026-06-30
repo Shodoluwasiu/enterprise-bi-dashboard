@@ -1,19 +1,27 @@
+.dashboard-card{
+    border-radius:16px;
+    transition:all .3s ease;
+    overflow:hidden;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
 .icon-circle{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 
-width:60px;
+.card h3{
+    font-size:2rem;
+}
 
-height:60px;
-
-border-radius:50%;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-font-size:24px;
-
-color:white;
-
+.card small{
+    font-size:.9rem;
 }
